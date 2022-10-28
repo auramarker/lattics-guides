@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Aura Marker',
+  title: 'Aura Marker Studio',
   tagline: '',
   url: 'https://auramarker.com',
   baseUrl: '/',
@@ -82,9 +82,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Aura Marker',
+        title: 'Aura Marker Studio',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Aura Marker Studio',
           src: 'img/logo.svg',
         },
         items: [
