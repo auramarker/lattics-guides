@@ -82,7 +82,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Aura Marker Studio',
+        title: '',
         logo: {
           alt: 'Aura Marker Studio',
           src: 'img/logo.svg',
@@ -95,10 +95,10 @@ const config = {
             label: 'Lattics 使用指南',
           },
           {to: '/blog', label: '博客', position: 'left'},
-          {
-            type: 'localeDropdown',
-            position: 'right'
-          },
+          // { TODO: 暂时只支持中文
+          //   type: 'localeDropdown',
+          //   position: 'right'
+          // },
         ],
       },
       footer: {
