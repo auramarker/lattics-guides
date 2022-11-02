@@ -85,8 +85,8 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          width: 56,
-          height: 56,
+          width: 189,
+          height: 70,
           alt: 'lattics',
           src: 'img/logo.svg',
           href: 'https://lattics.zineapi.com'
