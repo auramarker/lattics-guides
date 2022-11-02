@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -85,8 +85,11 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Aura Marker Studio',
+          width: 56,
+          height: 56,
+          alt: 'lattics',
           src: 'img/logo.svg',
+          href: 'https://lattics.zineapi.com'
         },
         items: [
           {
@@ -95,7 +98,7 @@ const config = {
             position: 'left',
             label: 'Lattics 使用指南',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          // {to: '/blog', label: '博客', position: 'left'},
           // { TODO: 暂时只支持中文
           //   type: 'localeDropdown',
           //   position: 'right'
@@ -104,43 +107,44 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/lattics',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/lattics',
-        //       },
-        //     ],
-        //   },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
-      //   ],
+        links: [
+          {
+            title: 'Aura Marker Studio',
+            items: [
+              {
+                label: '关于我们',
+                href: 'https://auramarker.com/',
+              },
+            ],
+          },
+           {
+            title: '联系我们',
+            items: [
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/lattics',
+              },
+            ],
+          },
+          {
+            title: '产品列表',
+            items: [
+              {
+                label: 'Zine',
+                href: 'https://zine.la',
+              },
+              {
+                label: 'Varlens',
+                href: 'https://varlens.zineapi.com/',
+              },
+              {
+                label: 'Lattics',
+                href: 'https://lattics.zineapi.com/',
+              },
+            ],
+          },
+        
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Aura Marker Studio Co., Ltd. All Rights Reserve.`,
       },
       prism: {
