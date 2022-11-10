@@ -3,11 +3,13 @@ sidebar_position: 1
 slug: backup_and_sync
 ---
 
+import Image from "../src/components/Image";
+
 在把 Lattics 作为主力的写作和笔记工具之前，最重要的是必须先了解备份和数据同步的知识。
 
 Lattics 是离线优先的，即所有内容都保存在你的电脑端，并不会上传到云端保存，因此，需要你自己做好数据的备份和同步工作。
 
-<img decoding="async" src="/images/backup_1_chs.png" width="80%" style={{margin: '0 auto'}}/>
+<Image src="/images/backup_1_chs.png" width={80} />
 
 Lattics 提供了免费的全库备份功能，在设置界面中可以找到。请设置一个备份路径，并开启自动备份，这样，Lattics 将定期地备份所有数据。每次备份都会生成一个带有时间戳的 zip 压缩文件，日后如果发生意外，可以选择一个备份文件进行恢复。
 
