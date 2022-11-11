@@ -3,6 +3,7 @@
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  transform: translate(0, 0);
 }
 
 .root img {
