@@ -3,6 +3,8 @@ import React from "react";
 import MDXComponents from "@theme-original/MDXComponents";
 import Video from "@site/src/components/Video";
 import Image from "@site/src/components/Image";
+import Color from "@site/src/components/Color";
+import Highlight from "@site/src/components/Highlight";
 
 export default {
   // Re-use the default mapping
@@ -11,4 +13,6 @@ export default {
   // `Highlight` will receive all props that were passed to `highlight` in MDX
   Video,
   Image,
+  Color,
+  Highlight,
 };
