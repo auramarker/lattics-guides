@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.从构思到出版": {
-    "message": "从构思到出版",
+    "message": "From Ideation To Publication",
     "description": "The label for category 从构思到出版 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.从构思到出版.link.generated-index.description": {
-    "message": "从构思到出版",
+    "message": "From Ideation To Publication",
     "description": "The generated-index page description for category 从构思到出版 in sidebar tutorialSidebar"
   }
 }
