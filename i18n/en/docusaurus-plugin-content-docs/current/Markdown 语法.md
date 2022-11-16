@@ -1,28 +1,30 @@
 ---
 sidebar_position: 8
 slug: markdown
+title: Markdown
+sidebar_label: Markdown
 ---
 
-Markdown 语法是一种简化排版，注重文本内容本身的标记语言。因为它方便阅读、便于简单排版，可以直接使用最简单的文本编辑器进行编辑，无需庞大复杂的软件功能而在许多笔记应用中流行。
+Markdown is a markup language that simplifies typesetting and focuses on the text content itself. Because it is easy to read, type, and can be edited directly with the text editor, it is popular in many note-taking applications without complex software functions.
 
-Lattics 支持一些常用 Markdown 语法，如下所列：
+Lattics supports some simple Markdown grammar such as:
 
-\#           标题 1
+\#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heading level 1
 
-\##         标题 2
+\##&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heading level 2
 
-\###       标题 3
+\###&nbsp;&nbsp;&nbsp;Heading level 3
 
-1\.         有序列表
+1\.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ordered lists
 
-\-           无序列表
+\-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unordered lists
 
-\>          引用
+\>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blockquotes
 
-\*\*\*        分割线
+\*\*\*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Horizontal Rules
 
-\*\* \*\*      加粗
+\*\* \*\*&nbsp;&nbsp;Emphasis
 
-\* \*        斜体
+\* \*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Italic
 
-\`\`\`         代码块
+\`\`\`&nbsp;&nbsp;&nbsp;&nbsp;Code Blocks
