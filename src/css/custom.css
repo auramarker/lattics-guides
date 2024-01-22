@@ -13,6 +13,7 @@
   --ifm-color-primary-light: #b595ff;
   --ifm-color-primary-lighter: #c1a7ff;
   --ifm-color-primary-lightest: #bca0ff;
+  --bd-color: #333;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -27,6 +28,26 @@
   --ifm-color-primary-light: #b595ff;
   --ifm-color-primary-lighter: #c1a7ff;
   --ifm-color-primary-lightest: #e8deff;
+  --bd-color: #EEE;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  table-layout: fixed;
+}
+
+table th, table td {
+  border: 1px solid var(--bd-color);
+  padding: 5px;
+}
+
+table th {
+  width: 200px;
+}
+
+table th + th {
+  width: 180px;
 }
