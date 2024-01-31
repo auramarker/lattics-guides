@@ -28,9 +28,11 @@ const config = {
     localeConfigs: {
       en: {
         label: "English",
+        htmlLang: 'en-US'
       },
       "zh-Hans": {
         label: "简体中文",
+        htmlLang: 'zh-CN'
       },
     },
   },
@@ -81,6 +83,20 @@ const config = {
             docId: "备份与数据同步",
             position: "left",
             label: "Lattics 使用指南",
+          },
+          {
+            position: "right",
+            label: "教学视频",
+            'aria-label': '教学视频',
+            className: 'video_tutorial_zh',
+            href: 'https://space.bilibili.com/43989776?spm_id_from=333.337.search-card.all.click'
+          },
+          {
+            position: "right",
+            label: "Video Tutorial",
+            'aria-label': 'Video Tutorial',
+            className: 'video_tutorial_cn',
+            href: 'https://www.youtube.com/channel/UCFXLNhYUs4u9llVZZyrC-KA'
           },
           {
             type: "localeDropdown",

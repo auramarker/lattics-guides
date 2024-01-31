@@ -51,3 +51,11 @@ table th {
 table th + th {
   width: 180px;
 }
+
+html[lang="zh-CN"] .video_tutorial_cn {
+  display: none;
+}
+
+html[lang="en-US"] .video_tutorial_zh {
+  display: none;
+}
