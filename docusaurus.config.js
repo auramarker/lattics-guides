@@ -121,7 +121,7 @@ const config = {
             items: [
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/lattics",
+                href: "https://discord.com/invite/uehBYfQehk",
               },
             ],
           },
