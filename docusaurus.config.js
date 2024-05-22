@@ -80,7 +80,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "备份与数据同步",
+            docId: "guide",
             position: "left",
             label: "Lattics 使用指南",
           },
