@@ -57,7 +57,8 @@ html[lang="zh-CN"] .video_tutorial_cn {
   display: none;
 }
 
-html[lang="en-US"] .video_tutorial_zh {
+html[lang="en-US"] .video_tutorial_zh,
+html[lang="en-US"] .hide_en {
   display: none;
 }
 body {
