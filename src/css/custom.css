@@ -16,6 +16,7 @@
   --bd-color: #333;
 
   --ifm-code-font-size: 95%;
+  --ifm-spacing-horizontal: 30px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -58,4 +59,37 @@ html[lang="zh-CN"] .video_tutorial_cn {
 
 html[lang="en-US"] .video_tutorial_zh {
   display: none;
+}
+body {
+  font-size: 14px;
+}
+
+body .menu__link {
+  padding: 0 12px 0 32px;
+  height: 34px;
+}
+
+body .menu__list .menu__list {
+  padding-left: 20px;
+}
+
+body .container {
+  padding-top: 28px !important;
+}
+
+body .navbar {
+  padding-left: 40px;
+}
+
+body nav .menu__list {
+  padding-top: 12px;
+}
+
+.markdown h1:first-child {
+  margin-top: .5em;
+  --ifm-h1-font-size: 2rem;
+}
+
+.markdown {
+  line-height: 1.3;
 }

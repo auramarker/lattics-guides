@@ -1,4 +1,4 @@
-import React from "react";
+import React, {CSSProperties} from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import styles from "./index.module.css";
@@ -95,7 +95,7 @@ export default function Home(): JSX.Element {
             <a
               href="https://zine.la/"
               target="_blank"
-              style={{ "--item-bg": "#01CDCD" }}
+              style={{ "--item-bg": "#01CDCD" } as CSSProperties}
             >
               <svg
                 width="110"
