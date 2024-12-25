@@ -75,7 +75,8 @@ const config = {
           height: 32,
           alt: "lattics",
           src: "img/logo.svg",
-          href: "https://lattics.zineapi.com",
+          srcDark: "img/logo_dark.svg",
+          href: "https://lattics.com",
         },
         items: [
           {
