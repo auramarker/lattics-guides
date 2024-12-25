@@ -102,6 +102,13 @@ body .navbar__item:not(:has(.locale_dropdown_custom)) svg {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.375 1.625l-3.5 3.75-3.5-3.75' fill='none' stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 8px;
+  border: none;
+  width: 12px;
+  height: 12px;
+  background-position: center;
 }
 
 .locale_dropdown_custom svg + * {
@@ -202,4 +209,11 @@ body .pagination-nav__link {
 
 body .pagination-nav__sublabel {
   display: none;
+}
+
+body .menu__caret:before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.375 1.625l-3.5 3.75-3.5-3.75' fill='none' stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.4'/%3E%3C/svg%3E");
+  background-size: 14px;
+  background-repeat: no-repeat;
+  transform: unset;
 }
