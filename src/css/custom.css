@@ -80,8 +80,8 @@ body .navbar__item:not(:has(.locale_dropdown_custom)) svg {
 
 .locale_dropdown_custom svg {
   margin: 0;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   flex-shrink: 0;
   color: var(--ifm-navbar-link-color);
 }
@@ -190,4 +190,16 @@ body .footer{
 
 .markdown {
   line-height: 1.8;
+}
+
+body .pagination-nav {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body .pagination-nav__link {
+  border: none;
+}
+
+body .pagination-nav__sublabel {
+  display: none;
 }
