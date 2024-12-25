@@ -84,6 +84,7 @@ const config = {
             docId: "guide",
             position: "left",
             label: "使用指南",
+            className: 'guide_link',
           },
           {
             position: "right",

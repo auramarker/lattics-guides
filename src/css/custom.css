@@ -18,6 +18,8 @@
   --ifm-code-font-size: 95%;
   --ifm-spacing-horizontal: 30px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-menu-color-background-active: rgba(135, 89, 242, 0.1);
+  --ifm-menu-color-background-hover: rgba(135, 89, 242, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -30,6 +32,8 @@
   --ifm-color-primary-lighter: #c1a7ff;
   --ifm-color-primary-lightest: #e8deff;
   --bd-color: #EEE;
+  /*--ifm-menu-color-background-hover: rgba(135, 89, 242, 0.1);*/
+  /*--ifm-menu-color-background-active: rgba(135, 89, 242, 0.1);*/
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
@@ -85,7 +89,11 @@ body .menu__list {
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {
-  color: revert;
+  color: inherit;
+}
+
+.guide_link.navbar__link--active:not(:hover) {
+  color: inherit;
 }
 
 .locale_dropdown_custom svg {
@@ -210,11 +218,41 @@ body .footer{
 }
 
 body .pagination-nav {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid var(--ifm-toc-border-color);
 }
 
 body .pagination-nav__link {
   border: none;
+}
+
+body .pagination-nav__link:hover {
+  opacity: .9;
+}
+
+body .pagination-nav__link.pagination-nav__link--next  .pagination-nav__label::after {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-size: 10px;
+    margin-left: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(-90deg);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.375 1.625l-3.5 3.75-3.5-3.75' fill='none' stroke='rgba(151, 112, 255, 1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.4'/%3E%3C/svg%3E");
+}
+
+body .pagination-nav__link.pagination-nav__link--prev  .pagination-nav__label::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-size: 10px;
+  margin-right: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.375 1.625l-3.5 3.75-3.5-3.75' fill='none' stroke='rgba(151, 112, 255, 1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.4'/%3E%3C/svg%3E");
+  transform: rotate(90deg);
 }
 
 body .pagination-nav__sublabel {
