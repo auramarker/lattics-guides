@@ -1,11 +1,10 @@
-import React from 'react';
+import React, {useMemo} from 'react';
+
 export default function FooterCopyright({copyright}) {
-  return (
-    <div
-      className="footer__copyright"
-      // Developer provided the HTML, so assume it's safe.
-      // eslint-disable-next-line react/no-danger
-      dangerouslySetInnerHTML={{__html: copyright}}
-    />
-  );
+    const year = useMemo(() => new Date().getFullYear(), []);
+
+    return (
+        <div className="footer__copyright">Copyright © {year} Aura Marker Studio Co., Ltd. All Rights Reserve. <a
+            className='hide_en' href='https://beian.miit.gov.cn' target='_blank'>粤ICP备13067222号</a></div>
+    );
 }

@@ -65,6 +65,23 @@ body {
   font-size: 14px;
 }
 
+body .navbar__item svg {
+  display: none;
+}
+
+body .dropdown__link {
+  font-size: 12px;
+}
+
+body .navbar__item {
+  font-size: 12px;
+}
+
+body .navbar .clean-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
 body .menu__link {
   padding: 0 12px 0 32px;
   height: 34px;
@@ -76,6 +93,8 @@ body .menu__list .menu__list {
 
 body .container {
   padding-top: 28px !important;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 
 body .navbar {
@@ -86,11 +105,50 @@ body nav .menu__list {
   padding-top: 12px;
 }
 
+body .footer{
+  --ifm-footer-background-color: #373A41;
+  --ifm-footer-color: #FFF;
+  --ifm-footer-link-color: rgb(from #FFF r g b/0.8);
+  --ifm-footer-title-color: rgb(from #FFF r g b/0.5);
+  padding-bottom: 22px;
+  padding-top: 12px;
+}
+
+[data-theme="dark"] .footer {
+  --ifm-footer-background-color: #151516;
+}
+
+.footer__title,
+.footer__item,
+.footer__copyright {
+  font-size: 12px;
+}
+
+.footer__title {
+  margin-bottom: 4px;
+  line-height: 16px;
+}
+
+.footer__copyright {
+  padding-top: 18px;
+  line-height: 14px;
+  color: rgb(from #FFF r g b/0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__copyright a {
+  color: inherit;
+}
+
+.footer__links {
+  margin-bottom: 20px;
+}
+
 .markdown h1:first-child {
   margin-top: .5em;
   --ifm-h1-font-size: 2rem;
 }
 
 .markdown {
-  line-height: 1.3;
+  line-height: 1.8;
 }

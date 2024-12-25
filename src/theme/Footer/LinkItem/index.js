@@ -19,7 +19,6 @@ export default function FooterLinkItem({item}) {
           })}
       {...props}>
       {label}
-      {href && !isInternalUrl(href) && <IconExternalLink />}
     </Link>
   );
 }
