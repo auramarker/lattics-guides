@@ -1,23 +1,7 @@
 {
-  "link.title.Aura Marker Studio": {
-    "message": "Aura Marker Studio",
-    "description": "The title of the footer links column with title=Aura Marker Studio in the footer"
-  },
-  "link.title.联系我们": {
-    "message": "联系我们",
-    "description": "The title of the footer links column with title=联系我们 in the footer"
-  },
   "link.title.产品列表": {
-    "message": "产品列表",
+    "message": "Products",
     "description": "The title of the footer links column with title=产品列表 in the footer"
-  },
-  "link.item.label.关于我们": {
-    "message": "关于我们",
-    "description": "The label of footer link with label=关于我们 linking to https://auramarker.com/"
-  },
-  "link.item.label.Discord": {
-    "message": "Discord",
-    "description": "The label of footer link with label=Discord linking to https://discordapp.com/invite/lattics"
   },
   "link.item.label.Zine": {
     "message": "Zine",
@@ -34,5 +18,21 @@
   "copyright": {
     "message": "Copyright © 2022 Aura Marker Studio Co., Ltd. All Rights Reserve.",
     "description": "The footer copyright"
+  },
+  "link.title.意见反馈": {
+    "message": "Feedback",
+    "description": "The title of the footer links column with title=意见反馈 in the footer"
+  },
+  "link.title.关于我们": {
+    "message": "About Us",
+    "description": "The title of the footer links column with title=关于我们 in the footer"
+  },
+  "link.item.label.support@auramarker.com": {
+    "message": "support@auramarker.com",
+    "description": "The label of footer link with label=support@auramarker.com linking to mailto:support@auramarker.com"
+  },
+  "link.item.label.Aura Marker Studio": {
+    "message": "Aura Marker Studio",
+    "description": "The label of footer link with label=Aura Marker Studio linking to https://auramarker.com/"
   }
 }

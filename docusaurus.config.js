@@ -82,7 +82,7 @@ const config = {
             type: "doc",
             docId: "guide",
             position: "left",
-            label: "Lattics 使用指南",
+            label: "使用指南",
           },
           {
             position: "right",
@@ -101,27 +101,27 @@ const config = {
           {
             type: "localeDropdown",
             position: "right",
+            className: 'locale_dropdown_custom',
           },
         ],
       },
       footer: {
-        style: "dark",
         links: [
           {
-            title: "Aura Marker Studio",
+            title: "意见反馈",
             items: [
               {
-                label: "关于我们",
-                href: "https://auramarker.com/",
+                label: "support@auramarker.com",
+                href: "mailto:support@auramarker.com",
               },
             ],
           },
           {
-            title: "联系我们",
+            title: "关于我们",
             items: [
               {
-                label: "Discord",
-                href: "https://discord.com/invite/uehBYfQehk",
+                label: "Aura Marker Studio",
+                href: "https://auramarker.com/",
               },
             ],
           },

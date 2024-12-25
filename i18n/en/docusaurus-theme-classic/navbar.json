@@ -1,6 +1,14 @@
 {
-  "item.label.Lattics 使用指南": {
-    "message": "Lattics Guides & Tutorials",
-    "description": "Navbar item with label Lattics 使用指南"
+  "item.label.使用指南": {
+    "message": "Guides & Tutorials",
+    "description": "Navbar item with label 使用指南"
+  },
+  "item.label.教学视频": {
+    "message": "Video Tutorial",
+    "description": "Navbar item with label 教学视频"
+  },
+  "item.label.Video Tutorial": {
+    "message": "Video Tutorial",
+    "description": "Navbar item with label Video Tutorial"
   }
 }
