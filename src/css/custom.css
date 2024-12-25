@@ -79,6 +79,15 @@ body .navbar__item:not(:has(.locale_dropdown_custom)) svg {
   white-space: nowrap;
 }
 
+body .menu__list {
+  font-size: 13px;
+  padding-right: .5em;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: revert;
+}
+
 .locale_dropdown_custom svg {
   margin: 0;
   width: 16px;
