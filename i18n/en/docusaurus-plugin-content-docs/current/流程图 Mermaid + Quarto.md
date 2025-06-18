@@ -1,6 +1,6 @@
 ---
-slug: mermaid-quarto
+slug: mermaid
 sidebar_position: 430
-title: Mermaid + Quarto
-sidebar_label: Mermaid + Quarto - Coming Soon
+title: Mermaid
+sidebar_label: Mermaid - Coming Soon
 ---
