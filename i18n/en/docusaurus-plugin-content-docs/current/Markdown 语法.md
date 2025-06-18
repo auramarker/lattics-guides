@@ -27,4 +27,10 @@ Lattics supports some simple Markdown grammar such as:
 
 \* \*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Italic
 
+\~\~ \~\~&nbsp;&nbsp;&nbsp;Strikethrough
+
+\`\`\`&nbsp;&nbsp;&nbsp;&nbsp;Inline Code (spaces are required)
+
 \`\`\`&nbsp;&nbsp;&nbsp;&nbsp;Code Blocks
+
+$ $&nbsp;&nbsp;&nbsp;Math Equations (spaces are required)
