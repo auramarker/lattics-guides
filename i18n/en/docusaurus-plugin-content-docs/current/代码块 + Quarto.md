@@ -1,6 +1,6 @@
 ---
 slug: code-blocks-quarto-executable-code
 sidebar_position: 420
-title: 代码块 + Quarto 可执行代码
-sidebar_label: 代码块 + Quarto 可执行代码 - 待开发
+title: Code Blocks + Quarto Executable Code
+sidebar_label: Code Blocks + Quarto Executable Code - Coming Soon
 ---

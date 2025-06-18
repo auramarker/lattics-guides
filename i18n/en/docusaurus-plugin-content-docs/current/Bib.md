@@ -52,7 +52,7 @@ For this goal, Lattics has innovatively designed and developed bibliography man 
 
    Bibliography block can be converted into text to facilitate editing text and proofreading.
 
-   <Video src="/images/bib/auto_bib.webm" />
+   <Video src="/images/bib/auto_bib.mp4" />
 
 8. **Custom Bibliography Templates:**
    There are so many journals that we cannot create their bibliography styles one by one, so Lattics adopts the CSL bibliography specification. You can download more CSL tem‐ plates and import them into Lattics, or you can refer to a CSL template and modify the XML parameters to develop your own style.

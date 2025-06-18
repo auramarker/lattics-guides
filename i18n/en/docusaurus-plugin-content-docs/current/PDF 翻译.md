@@ -1,7 +1,7 @@
 ---
 slug: pdf-translation
 sidebar_position: 190
-title: PDF 对照翻译与全文翻译
-sidebar_label: PDF 对照翻译与全文翻译 - 待开发
+title: PDF Comparison Translation and Full Text Translation
+sidebar_label: PDF Translation - Coming Soon
 ---
-待开发，敬请期待。
+

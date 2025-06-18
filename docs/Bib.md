@@ -50,7 +50,7 @@ title: 参考文献
 
    参考文献块元素可以转为正文，以方便文字编辑和校对。
 
-   <Video src="/images/bib/auto_bib.webm" />
+   <Video src="/images/bib/auto_bib.mp4" />
 
 8. **自定义参考文献模块和样式：**
    期刊非常多，我们无法一一制作它们的参考文献样式，因此 Lattics 采用了 CSL 文献规范，你可以自己下载更多的 CSL 文献模版导入到 Lattics 中，也可以参考某个 CSL 模版，修改其中的 XML 参数，制定自己的参考文献样式。
