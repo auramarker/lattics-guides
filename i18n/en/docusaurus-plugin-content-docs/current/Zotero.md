@@ -1,6 +1,6 @@
 ---
 slug: zotero
-sidebar_position: 13
+sidebar_position: 460
 title: Zotero
 sidebar_label: Zotero
 ---
