@@ -18,7 +18,7 @@ To this end, Lattics innovatively supports five ways to cite reference, and prov
    Then, open the PDF in Lattics for reading. you can select some content excerpts as cards. These cards will automatically carry the metadata and record the page number. In the extension information interface of the card, the link to the PDF will be displayed in the backward link. Click the link, you can open the PDF and locate the corresponding page position.
 
    Finally, drag the card from the card library to the article, or directly use @ to quote it.
-   <Video src="/images/bib/new_bib.webm" />
+   <Video src="/images/bib/pdf_locate.webm" />
 
 3. **Directly cite PDF files or bibliography files**
 
@@ -28,7 +28,7 @@ To this end, Lattics innovatively supports five ways to cite reference, and prov
 
    You can also import reference files in batches by dragging them into the project outline. Currently supported reference formats are: BibTex, RIS, and EndNote. Created and imported reference files can also be dragged into Lattics articles, or cited them by @ shortcut
 
-   <Video src="/images/bib/pdf_locate.webm" />
+   <Video src="/images/bib/new_bib.webm" />
 
 4. **Extract as a card in the Web app and cite in the article**
 

@@ -3,6 +3,7 @@ import React from "react";
 import MDXComponents from "@theme-original/MDXComponents";
 import Video from "@site/src/components/Video";
 import Image from "@site/src/components/Image";
+import InlineImage from "@site/src/components/InlineImage";
 import Color from "@site/src/components/Color";
 import Highlight from "@site/src/components/Highlight";
 
@@ -13,6 +14,7 @@ export default {
   // `Highlight` will receive all props that were passed to `highlight` in MDX
   Video,
   Image,
+  InlineImage,
   Color,
   Highlight,
 };

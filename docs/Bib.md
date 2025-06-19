@@ -18,7 +18,7 @@ title: 参考文献
    然后，在 Lattics 中打开 PDF 阅读，在阅读过程中，可以选中部分内容摘录为卡片，这些卡片会自动带上该文献的元数据，并记录所在页码，在卡片的扩展信息界面中，会在后向链接中显示该 PDF 的链接，点击该链接，可以打开该 PDF 并定位到相应的页面位置
 
    最后，将卡片从卡片库拖拽到文档中，或者直接使用 @ 在文档中引用即可
-   <Video src="/images/bib/new_bib.webm" />
+   <Video src="/images/bib/pdf_locate.webm" />
 
 3. **直接引用 PDF 文件或参考文献文件**
 
@@ -27,7 +27,7 @@ title: 参考文献
    有时候，可能无法获得文献的 PDF 文件，但是可以获得其文献元数据，比如 BibTex，RIS，EndNote 格式的参考文献信息，这些在学术期刊网站或者预印本网站上很容易获取。Lattics 支持创建和导入这些参考文献文件。在 Lattics 中创建参考文献文件的方法是：在网页上复制它 BibTex，RIS，EndNote  格式的文献信息，然后在 Lattics 的项目大纲中，创建新的参考文献，将文本信息粘贴到编辑弹窗中，当内容识别为所支持的参考文献内容格式时，就可以保存它为 Bib 文件了。Lattics 会自动解析并创建参考文献信息中的字段，比如标题、作者、关键词、出版类型、出版时间、DOI、ISBN、PMID、arXiv 等 id 号码，方便以后去重和准确检索相应的文献。
 
    也可以批量导入参考文献的文件，把它们拖拽到项目大纲中即可。目前支持的参考文献格式为： BibTex，RIS，EndNote 三种。创建与导入的参考文献，也可以像 PDF 文件一样，拖拽到 Lattics 文档中，或者使用 @ 引用即可
-   <Video src="/images/bib/pdf_locate.webm" />
+   <Video src="/images/bib/new_bib.webm" />
 
 4. **在 Web app 中摘录为卡片，并在文章中引用**
 
