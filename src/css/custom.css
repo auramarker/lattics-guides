@@ -154,7 +154,7 @@ body .navbar .clean-btn svg {
 
 body .menu__link {
   padding: 0 12px 0 32px;
-  height: 34px;
+  height: 30px;
 }
 
 body .menu__list .menu__list {
@@ -287,5 +287,5 @@ nav .menu__list  li  a::before {
   position: absolute;
   left: 10px;
   top: 0;
-  line-height: 34px;
+  line-height: 30px;
 }
