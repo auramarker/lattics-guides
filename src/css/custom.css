@@ -271,3 +271,21 @@ body .menu__caret:before {
   background-repeat: no-repeat;
   transform: unset;
 }
+
+nav .menu__list {
+  counter-reset: navigation;
+}
+
+nav .menu__list  li {
+  counter-increment: navigation;
+  position: relative;
+}
+
+nav .menu__list  li  a::before {
+  content: counters(navigation, ".", decimal) ". ";
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  line-height: 34px;
+}
