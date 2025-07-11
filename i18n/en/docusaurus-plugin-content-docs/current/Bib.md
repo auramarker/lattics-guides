@@ -63,6 +63,11 @@ The above five methods are ways to add literature citations in articles. To auto
    After switching to the note type CSL style, when exporting PDF or Word files, Lattics will automatically calculate and display the bibliography at the bottom of each page or at the end of the article, depending on the selected footnote display position when exporting PDF or Word files
 
 2. **Display the bibliography list in the footnote and at the end of the article same time**
+   In some special cases, if you need to display bibliograph at the bottom of each page and at the end of the article, please select the CSL style of note type and check the "Show Note and Biblilgraphy" option in the export PDF or Word interface.
+
+3. **Hide the author cited in the text**
+
+   When citing references, you may encounter the author's name mentioned in the text, and the article citation also displays this author's name. At this time, if you need to hide the author's name in the citation, you can right-click the author's name cited in the text and click "Hide Author" in the displayed menu. If you want to unhide it, you can right-click the reference in the text and select "Show Author".
 
 In some special cases, if you need to display the bibliography list at the bottom of each page and at the end of the article same time, you also need to select the note type CSL style, and set the footnote position to "bottom of the page & end of the document" in the PDF and Word export interface
 
