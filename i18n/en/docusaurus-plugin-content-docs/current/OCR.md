@@ -14,5 +14,4 @@ The method of using OCR is also very convenient. When reading a PDF file, select
 Note:
 
 1. Lattics' OCR recognition uses an AI algorithm, which still has some recognition errors. This algorithm is specifically trained for high-precision recognition of academic papers, business documents, and printed books. Documents in other formats will have larger recognition errors.
-2. Currently only Chinese and English are supported, and more languages will be supported in the future
-3. Simplified Chinese, Traditional Chinese, and Japanese vertical document will also be supported in the future
+2. Supports **41** languages, including: English, French, German, Japanese, Korean, Italian, Spanish, Portuguese, Simplified Chinese, Traditional Chinese, Russian, Ukrainian, Dutch, Swedish, Polish, Turkish, Hungarian, Latin, Indonesian, etc.
