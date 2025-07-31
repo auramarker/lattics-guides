@@ -15,3 +15,4 @@ Note:
 
 1. Lattics' OCR recognition uses an AI algorithm, which still has some recognition errors. This algorithm is specifically trained for high-precision recognition of academic papers, business documents, and printed books. Documents in other formats will have larger recognition errors.
 2. Supports **41** languages, including: English, French, German, Japanese, Korean, Italian, Spanish, Portuguese, Simplified Chinese, Traditional Chinese, Russian, Ukrainian, Dutch, Swedish, Polish, Turkish, Hungarian, Latin, Indonesian, etc.
+3. Simplified Chinese, Traditional Chinese, and Japanese vertical document will also be supported in the future
