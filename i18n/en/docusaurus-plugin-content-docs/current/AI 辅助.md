@@ -5,8 +5,6 @@ title: AI Assistance
 sidebar_label: AI Assistance
 ---
 
-## AI Assistance
-
 As large language models continue to evolve, AI has become useful in content generation, data analysis, software development, and research workflows. Lattics AI features are designed to support writing, deep research, and ideation while keeping model choice, human review, batch processing, and privacy protection under user control.
 
 ### 1. Multiple Model Providers
