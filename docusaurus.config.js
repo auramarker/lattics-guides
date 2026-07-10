@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Aura Marker Studio",
   tagline: " ",
-  url: "https://auramarker.com",
+  url: "https://helps.auramarker.com",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -36,6 +36,8 @@ const config = {
       },
     },
   },
+
+  plugins: ["./plugins/geo"],
 
   presets: [
     [
