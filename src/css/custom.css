@@ -67,8 +67,37 @@ html[lang="en-US"] .video_tutorial_zh,
 html[lang="en-US"] .hide_en {
   display: none;
 }
+html,
+body,
+#__docusaurus,
+.main-wrapper,
+.docPageContainer,
+main {
+  overflow-x: hidden;
+  overflow-x: clip;
+  max-width: 100vw;
+}
+
 body {
   font-size: 14px;
+}
+
+.markdown table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.markdown img,
+.markdown video,
+.markdown iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+.markdown pre {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 body .navbar__item:not(:has(.locale_dropdown_custom)) svg {
@@ -153,8 +182,10 @@ body .navbar .clean-btn svg {
 }
 
 body .menu__link {
-  padding: 0 12px 0 32px;
-  height: 30px;
+  display: flex;
+  align-items: baseline;
+  padding: 0 12px;
+  min-height: 30px;
 }
 
 body .menu__list .menu__list {
@@ -169,6 +200,105 @@ body .container {
 
 body .navbar {
   padding-left: 40px;
+}
+
+@media (max-width: 996px) {
+  body .container {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  body .navbar {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .theme-code-block,
+  .prism-code {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .markdown {
+    font-size: 16px;
+  }
+
+  /* 移动端侧边栏弹出大纲/目录菜单 */
+  .navbar-sidebar,
+  .navbar-sidebar .menu,
+  .navbar-sidebar .menu__list,
+  .navbar-sidebar .menu__link,
+  .navbar-sidebar .menu__list-item,
+  body .menu__list,
+  body .menu__link {
+    font-size: 16px !important;
+  }
+
+  body .menu__link {
+    align-items: baseline !important;
+    height: auto !important;
+    min-height: 36px !important;
+    line-height: 1.5 !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+  }
+
+  /* 移动端本页大纲/TOC折叠菜单 */
+  .theme-doc-toc-mobile,
+  .tocCollapsible,
+  .tocCollapsibleButton,
+  .tocCollapsibleContent,
+  .table-of-contents,
+  .table-of-contents__link,
+  [class*="tocCollapsible"],
+  [class*="tocCollapsibleButton"],
+  [class*="tocCollapsibleContent"],
+  [class*="tableOfContents"],
+  [class*="tocLink"] {
+    font-size: 16px !important;
+  }
+
+  body .pagination-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 12px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body .pagination-nav__link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body .pagination-nav__link--next {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  body .pagination-nav__link--prev {
+    text-align: left;
+  }
+
+  body .footer {
+    overflow-x: hidden;
+  }
 }
 
 body nav .menu__list {
@@ -227,34 +357,46 @@ body .pagination-nav {
   border-top: 1px solid var(--ifm-toc-border-color);
 }
 
+body .pagination-nav__label::before,
+body .pagination-nav__label::after,
+body .pagination-nav__link--prev::after,
+body .pagination-nav__link--next::before {
+  display: none !important;
+  content: none !important;
+}
+
 body .pagination-nav__link {
   border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-body .pagination-nav__link:hover {
-  opacity: .9;
+body .pagination-nav__label {
+  flex: 1;
+  min-width: 0;
 }
 
-body .pagination-nav__link.pagination-nav__link--next  .pagination-nav__label::after {
-  content: '';
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-size: 10px;
-    margin-left: 4px;
+body .pagination-nav__link.pagination-nav__link--next::after {
+  content: '' !important;
+  display: block !important;
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  background-size: 12px;
   background-position: center;
   background-repeat: no-repeat;
   transform: rotate(-90deg);
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.375 1.625l-3.5 3.75-3.5-3.75' fill='none' stroke='rgba(151, 112, 255, 1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.4'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.375 1.625l-3.5 3.75-3.5-3.75' fill='none' stroke='rgba(151, 112, 255, 1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.4'/%3E%3C/svg%3E");
 }
 
-body .pagination-nav__link.pagination-nav__link--prev  .pagination-nav__label::before {
-  content: '';
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-size: 10px;
-  margin-right: 4px;
+body .pagination-nav__link.pagination-nav__link--prev::before {
+  content: '' !important;
+  display: block !important;
+  flex-shrink: 0;
+  width: 14px;
+  height: 14px;
+  background-size: 12px;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 7' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.375 1.625l-3.5 3.75-3.5-3.75' fill='none' stroke='rgba(151, 112, 255, 1)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.4'/%3E%3C/svg%3E");
@@ -276,16 +418,16 @@ nav .menu__list {
   counter-reset: navigation;
 }
 
-nav .menu__list  li {
+nav .menu__list li {
   counter-increment: navigation;
-  position: relative;
 }
 
-nav .menu__list  li  a::before {
+nav .menu__list li a::before {
   content: counters(navigation, ".", decimal) ". ";
   font-weight: 500;
-  position: absolute;
-  left: 10px;
-  top: 0;
-  line-height: 30px;
+  position: static;
+  display: inline-block;
+  margin-right: 8px;
+  flex-shrink: 0;
+  line-height: inherit;
 }
