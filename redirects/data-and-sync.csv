@@ -1,0 +1,9 @@
+source,destination,permanent,preserveQueryParams
+/lattics/backup_and_sync,/lattics/data-and-sync/backup-and-sync,t,t
+/lattics/backup_and_sync.md,/lattics/data-and-sync/backup-and-sync.md,t,t
+/en/lattics/backup_and_sync,/en/lattics/data-and-sync/backup-and-sync,t,t
+/en/lattics/backup_and_sync.md,/en/lattics/data-and-sync/backup-and-sync.md,t,t
+/lattics/sync,/lattics/data-and-sync/third-party-sync,t,t
+/lattics/sync.md,/lattics/data-and-sync/third-party-sync.md,t,t
+/en/lattics/sync,/en/lattics/data-and-sync/third-party-sync,t,t
+/en/lattics/sync.md,/en/lattics/data-and-sync/third-party-sync.md,t,t

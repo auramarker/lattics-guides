@@ -1,0 +1,13 @@
+source,destination,permanent,preserveQueryParams
+/lattics/ai,/lattics/ai/intro,t,t
+/lattics/ai.md,/lattics/ai/intro.md,t,t
+/en/lattics/ai,/en/lattics/ai/intro,t,t
+/en/lattics/ai.md,/en/lattics/ai/intro.md,t,t
+/lattics/ocr,/lattics/ai/ocr,t,t
+/lattics/ocr.md,/lattics/ai/ocr.md,t,t
+/en/lattics/ocr,/en/lattics/ai/ocr,t,t
+/en/lattics/ocr.md,/en/lattics/ai/ocr.md,t,t
+/lattics/subtitle-conversion,/lattics/ai/audio-video-transcription,t,t
+/lattics/subtitle-conversion.md,/lattics/ai/audio-video-transcription.md,t,t
+/en/lattics/subtitle-conversion,/en/lattics/ai/audio-video-transcription,t,t
+/en/lattics/subtitle-conversion.md,/en/lattics/ai/audio-video-transcription.md,t,t
