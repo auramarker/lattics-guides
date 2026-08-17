@@ -83,7 +83,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "from_inspiration_to_publication/intro",
+            docId: "from-inspiration-to-publication/intro",
             position: "left",
             label: "使用指南",
             className: 'guide_link',

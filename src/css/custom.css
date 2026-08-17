@@ -183,7 +183,6 @@ body .navbar .clean-btn svg {
 
 body .menu__link {
   display: flex;
-  align-items: baseline;
   padding: 0 12px;
   min-height: 30px;
 }
@@ -496,7 +495,6 @@ body .navbar {
   }
 
   body .menu__link {
-    align-items: baseline !important;
     height: auto !important;
     min-height: 36px !important;
     line-height: 1.5 !important;
@@ -660,16 +658,16 @@ body .menu__caret:before {
   transform: unset;
 }
 
-nav .menu__list {
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list {
   counter-reset: navigation;
 }
 
-nav .menu__list li {
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list > .menu__list-item {
   counter-increment: navigation;
 }
 
-nav .menu__list li a::before {
-  content: counters(navigation, ".", decimal) ". ";
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list > .menu__list-item > .menu__link::before {
+  content: counter(navigation) ". ";
   font-weight: 500;
   position: static;
   display: inline-block;
